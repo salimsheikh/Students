@@ -1,0 +1,48 @@
+table.table-custom th.action,
+table.table-custom td.action{
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table.table-custom td.action .btn-sm{
+    padding: 0.10rem 0.10rem 0.05rem 0.10rem;
+    width: 25px;
+}
+
+table.table-custom td.action button{
+    padding: 0;
+    border: none;
+    background-color:transparent;
+}
+
+table.table-custom td.action .btn-edit .material-icons{
+    color: #0062cc;
+}
+
+table.table-custom td.action .btn-delete .material-icons{
+    color: #c82333;
+}
+
+table.table-custom td,
+table.table-custom th{
+    padding: .20rem .25rem;
+}
+
+table.table-custom td, table.table-custom th{
+    font-size: .75rem;
+}
+
+.pagination .page-link {
+    font-size: 0.875rem; /* Adjust the size as needed */
+    padding: 0.5rem 0.75rem; /* Adjust padding if necessary */
+}
+
+.pagination .page-item .page-link svg {
+    width: 1em; /* Adjust width as needed */
+    height: 1em; /* Adjust height as needed */
+}
+
+.material-icons{
+    font-size: 15px;
+}
